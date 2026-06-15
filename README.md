@@ -1,6 +1,6 @@
 # `x-shown`
 
-This is a plugin for [Alpine.js](https://github.com/alpinejs/alpine) that adds two directives that work with `x-show`: `x-shown` and `x-hidden`. The code in these directives is run when the element has been successfully shown or hidden.
+This is a plugin for [Alpine.js](https://github.com/alpinejs/alpine) that adds two directives that work with `x-show`: `x-shown` and `x-hidden`. The code in these directives is run when the element has been shown or hidden.
 
 Works with and without transitions.
 
