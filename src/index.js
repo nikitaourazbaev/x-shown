@@ -14,11 +14,13 @@ export default function (Alpine) {
         doShow();
 
         await aFrame();
+
         let animations = el.getAnimations();
 
         // catch `x-transition:enter`
         if (!animations.length) {
           await aFrame();
+
           animations = el.getAnimations();
         }
 
