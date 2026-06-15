@@ -1,6 +1,6 @@
 {
   "name": "x-shown",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Alpine.js plugin to run JavaScript when an element is shown or hidden with x-show",
   "type": "module",
   "repository": {
