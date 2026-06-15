@@ -13,3 +13,5 @@ Example:
   x-hidden="console.log('hidden', $el)"
 ></div>
 ```
+
+Add the directives to an element that has `x-show`.
