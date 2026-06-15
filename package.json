@@ -12,11 +12,17 @@
   "main": "dist/module.cjs.js",
   "module": "dist/module.esm.js",
   "unpkg": "dist/cdn.min.js",
+  "types": "index.d.ts",
+  "files": [
+    "dist",
+    "index.d.ts"
+  ],
   "scripts": {
     "dev": "node ./scripts/build.js --watch",
     "build": "node ./scripts/build.js"
   },
   "devDependencies": {
+    "@types/alpinejs": "^3.13.11",
     "esbuild": "^0.28.1"
   }
 }
