@@ -1,0 +1,22 @@
+{
+  "name": "x-shown",
+  "version": "1.0.0",
+  "description": "Alpine.js plugin to run JavaScript when an element is shown or hidden with x-show",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nikitaourazbaev/x-shown.git"
+  },
+  "author": "Nikita Ourazbaev",
+  "license": "MIT",
+  "main": "dist/module.cjs.js",
+  "module": "dist/module.esm.js",
+  "unpkg": "dist/cdn.min.js",
+  "scripts": {
+    "dev": "node ./scripts/build.js --watch",
+    "build": "node ./scripts/build.js"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.1"
+  }
+}

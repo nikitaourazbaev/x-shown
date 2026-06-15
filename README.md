@@ -1,0 +1,15 @@
+# `x-shown`
+
+This is a plugin that adds two directives to Alpine: `x-shown` and `x-hidden`. The expressions in those directives are evaluated when the element has been successfully shown or hidden.
+
+This works with and without transitions.
+
+Example:
+
+```html
+<div
+  x-show="open"
+  x-shown="console.log('shown', $el)"
+  x-hidden="console.log('hidden', $el)"
+></div>
+```
