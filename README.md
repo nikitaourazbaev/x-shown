@@ -1,8 +1,8 @@
 # `x-shown`
 
-This is a plugin that adds two directives to Alpine: `x-shown` and `x-hidden`. The expressions in those directives are evaluated when the element has been successfully shown or hidden.
+This is a plugin that adds two directives to Alpine: `x-shown` and `x-hidden`. The code in those directives is run when the element has been successfully shown or hidden.
 
-This works with and without transitions.
+Works with and without transitions.
 
 Example:
 
